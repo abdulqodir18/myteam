@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myteam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__container">
+      <a class="site-header__logo header-logo" href="#">
+        <img class="header-logo__img" src="img/myteam.svg" alt="site logo" width="159" height="40">
+      </a>
+      <nav class="site-header__nav site-header-nav">
+        <ul class="site-header-nav__list nav-list">
+          <li class="nav-list__item nav-item">
+            <a class="nav-item__link" href="#">home</a>
+          </li>
+          <li class="nav-list__item nav-item">
+            <a class="nav-item__link" href="#">about</a>
+          </li>
+          <li class="nav-list__item nav-item--contact">
+            <a class="nav-item__link--contact" href="#">contact us</a>
+          </li>
+        </ul>
+
+      </nav>
+      <button class="menu-toggler" type="button"></button>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="site-main__result result-section">
+      <div class="container result-section__container">
+        <h2 class="result-section__title">Delivering real results for top companies. Some of our
+          <span class="result-section__title--blue">success stories.</span>
+        </h2>
+
+        <ul class="result-section__list result-section-list">
+          <li class="result-section-list__item result-section-item">
+            <blockquote class="result-section-item__blq"> “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</blockquote>
+            <p class="result-section-item__name">Kady Baker</p>
+            <span class="result-section-item__job">Product Manager at Bookmark</span>
+          </li>
+
+          <li class="result-section-list__item result-section-item">
+            <blockquote class="result-section-item__blq"> “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</blockquote>
+            <p class="result-section-item__name">Kady Baker</p>
+            <span class="result-section-item__job">Product Manager at Bookmark</span>
+          </li>
+
+          <li class="result-section-list__item result-section-item">
+            <blockquote class="result-section-item__blq"> “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</blockquote>
+            <p class="result-section-item__name">Kady Baker</p>
+            <span class="result-section-item__job">Product Manager at Bookmark</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    var elMenuToggler = document.querySelector('.menu-toggler')
+    var elMenu = document.querySelector('.site-header-nav')
+
+    elMenuToggler.addEventListener('click', function ()
+    {
+      elMenu.classList.toggle('site-header-nav-open')
+    });
+  </script>
+</body>
+</html>
