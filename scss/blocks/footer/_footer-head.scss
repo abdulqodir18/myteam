@@ -1,0 +1,39 @@
+.site-footer-head {
+}
+.site-footer-head__logo {
+}
+.site-footer-head__logo {
+}
+.fppter-logo {
+    width: 96px;
+    height: 24px;
+}
+.site-footer__nav {
+}
+.footer-nav {
+}
+.footer-nav__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.footer-nav__item {
+    margin-right: 24px;
+    
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.footer-nav__link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+}
+@media only screen and (max-width:550px) {
+    .footer-nav__list {
+        margin-top: 24px;
+    }
+}

@@ -1,0 +1,17 @@
+.site-footer__address {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.63);
+}
+@media only screen and (max-width:900px) {
+    .site-footer__address {
+        text-align: right;
+    }
+}
+@media only screen and (max-width:550px) {
+    .site-footer__address {
+       text-align: center; 
+    }
+}
