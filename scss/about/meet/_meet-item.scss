@@ -1,0 +1,101 @@
+.meet-item {
+    width: 350px;
+    background-color:  #012F34;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 56px;
+    position: relative;
+}
+.meet-item__innrer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    &::before {
+        content: "";
+        width: 96px;
+        height: 96px;
+        background-image: url("../img/aiysha.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 2px solid #C4FFFE;
+        border-radius: 50%;
+        margin-bottom: 16px;
+        margin-top: 32px;
+    }
+}
+.meet-item__name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.meet-item__work {
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.meet-item__toggler {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%) translateY(50%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+}
+.meet-item__toggler--closed {
+    background-color: #F67E7E;
+    background-image: url("../../../img/plus.svg");
+}
+.meer-item__inner-open {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 24px 63px 24px;
+}
+.meet-item__name--quote {
+    margin-bottom: 8px;
+}
+.meet-item__quote {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.meet-item__toggler--oppen {
+    background-color: #79C8C7;
+    background-image: url("../img/plus.svg");
+    transform: translate(-50%) translateY(50%) rotate(45deg);
+}
+.meet-item-open > .meet-item__innrer {
+    display: none;
+}
+.meet-item-open > .meer-item__inner-open {
+    display: flex;
+}
+@media only screen and (max-width:1150px) {
+    .meet-item {
+        max-width: 281px;
+    }
+}
+@media only screen and (max-width:605px) {
+    .meet-item {
+        max-width: 327px;
+    }
+}

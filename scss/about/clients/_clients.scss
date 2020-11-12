@@ -1,0 +1,130 @@
+.clients {
+    background-color:  #012F34;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-image: url("../img/clienrs-bg.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-title {
+    margin: 0;
+    margin-bottom: 64px;
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+}
+.clients__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -37px;
+    margin-right: -37px;
+}
+.clients__item {
+    margin-right: 37px;
+    margin-left: 37px;
+    
+}
+.clients__link-img {
+}
+.clients__img {
+    display: block;
+}
+.clients__img--verge {
+    width: 165px;
+    height: 28px;
+}
+.clients__img--jaka {
+    width: 183px;
+    height: 23px;
+}
+.clients__img--the {
+    width: 180px;
+    height: 28px;
+}
+.clients__img--techerdar {
+    width: 165px;
+    height: 28px;
+}
+.clients__img--gadgets {
+    width: 98px;
+    height: 45px;
+}
+@media only screen and (max-width:1150px) {
+    .clients__item {
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-bottom: 55px;
+    }
+}
+@media only screen and (max-width:1110px) {
+    .clients__img--verge {
+        width: 103px;
+        height: 17px;
+    }
+    .clients__img--jaka {
+        width: 114px;
+        height: 14px;
+    }
+    .clients__img--the {
+        width: 112px;
+        height: 17px;
+    }
+    .clients__img--techerdar {
+        width: 103px;
+        height: 17px;
+    }
+    .clients__img--gadgets {
+        width: 61px;
+        height: 28px;
+    }
+} 
+@media only screen and (max-width:900px) {
+    .clients-title {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .clients {
+        background-position: top -100px left ;
+    }
+}
+@media only screen and (max-width:450px) {
+    .clients {
+        background-position: top -100px left -100px;
+    }
+    .clients__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients__img--verge {
+        width: 146px;
+        height: 24px;
+    }
+    .clients__img--jaka {
+        width: 162px;
+        height: 20px;
+    }
+    .clients__img--the {
+        width: 185px;
+        height: 28px;
+    }
+    .clients__img--techerdar {
+        width: 175px;
+        height: 28px;
+    }
+    .clients__img--gadgets {
+        width: 98px;
+        height: 45px;
+    }
+}

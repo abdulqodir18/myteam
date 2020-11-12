@@ -36,14 +36,7 @@ html {
     overflow: hidden;
   }
   
-  .container {
-    max-width: 1150px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    /* box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.1); */
-  }
+  
   
   .site-header {
     padding: 53px 0 0 0;
@@ -184,9 +177,6 @@ html {
   
   
   @media only screen and (max-width: 768px) {
-    .container {
-      padding: 10px;
-    }
   
     .header-logo {
       margin-right: 28px;
@@ -212,13 +202,11 @@ html {
   
   }
   
-  @media only screen and (max-width: 530px) {
+  @media only screen and (max-width: 600px) {
     .header-logo__img {
       min-width: 128px;
       min-height: 32px;
     }
-  
-  
     .nav-list {
       display: none;
     }
@@ -229,7 +217,7 @@ html {
     }
   }
   
-  @media only screen and (min-width: 530px) {
+  @media only screen and (min-width: 600px) {
     .site-header-nav-open {
       display: none;
     }
