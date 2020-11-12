@@ -58,6 +58,9 @@
     }
 }
 @media only screen and (max-width:605px) {
+    .meet {
+        background-position: top -100px left -100px, bottom right;
+    }
     .meet__item {
         margin: 0;
         margin-bottom: 52px;
