@@ -30,6 +30,18 @@
     margin-bottom: 24px;
     
 }
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+::-moz-placeholder { 
+    color: rgba(255, 255, 255, 0.6);
+}
+:-ms-input-placeholder { 
+    color: rgba(255, 255, 255, 0.6);
+}
+:-moz-placeholder { 
+    color: rgba(255, 255, 255, 0.6);
+}
 .contact-form__input:invalid:not(:placeholder-shown) {
     border-bottom: 1px solid #F67E7E;
     color: rgba(246, 126, 126, 0.644);
@@ -74,6 +86,8 @@
         color: #ffffff;
     }
 }
-@media only screen and (max-width:1300px) {
-
+@media only screen and (max-width:650px) {
+    .contact-form {
+        margin-top: 56px;
+    }
 }
